@@ -1,0 +1,40 @@
+.panel_container{
+  min-width: 1000px;
+}
+
+.admin_panel_a > a,.admin_panel_a span {
+  color: white !important;
+}
+
+.panel_Item{
+  text-decoration: none;
+}
+
+/* Custom style for the dropdown menu */
+.dropdown_menu {
+  background-color: #000; /* Black background */
+  border: none;
+  padding: 10px;
+}
+
+.dropdown_menu li {
+  margin-bottom: 5px;
+}
+
+/* Style for the links within the dropdown */
+.panel_Item {
+  color: #fff; /* White text */
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.panel_Item:hover {
+  background-color: #444; /* Dark gray on hover */
+}
+
+.dropdown_link {
+  color: #fff; /* Make the parent link white */
+}

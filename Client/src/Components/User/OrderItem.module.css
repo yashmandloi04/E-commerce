@@ -1,0 +1,7 @@
+.anchor{
+  color: blue !important;
+}
+.anchor:hover{
+  color: blue !important;
+  text-decoration: none;
+}

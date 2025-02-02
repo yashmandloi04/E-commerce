@@ -1,0 +1,63 @@
+.form-theme-custom{
+  background-color: #FFFFFF;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.form-header{
+  background-color: #FFC43F;
+  margin: 0px !important;
+  padding: 10px 0 0 25px;
+}
+.form-body{
+  margin: 5px 20px;
+  padding: 0 50px 0 7px;
+  color: #FFC43F;
+}
+.form-body input,.form-body textarea,.form-body select{
+  border: 1px solid black; 
+}
+
+.form-btn:hover{
+  background-color: #FFC43F;
+  color: #000;
+  transition-duration: .5s;
+  box-shadow: 2px 2px 6px #000;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+/* Show dropdown menu on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+/* Submenu styles */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: -1px;
+}
+
+/* Show nested submenus on hover */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+input, select, textarea{
+  border: 1px solid black !important;
+}
+
+input:focus, select:focus, textarea:focus{
+  border: none !important;
+}
